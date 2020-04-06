@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plataforma México Vs Covid-19</title>
+    <link rel="icon" type="assets/image/png" href="assets/images/Isotipo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img
+            src="assets/images/logocoin2.png"
+            width="60"–––
+            height="60"
+            alt="Logo Plataforma-covid"
+          />
+        </figure>
+        <nav class="menu">
+          <ol>
+             <!-- <li>
+              <a class="link" href="#Algo">Algo</a>
+            </li>-->
+            <li> 
+              <a class="link" href="somos.html">¿Quienes somos?</a>
+            </li>
+            <li>
+              <a> Call center nacional: <br> +52 55 85 25 58 00</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header> 
+
+   
+     <!-- <section class="hero">
+      <div class="container">
+        <h2>
+          ¡Hola soy <strong> covidoin </strong> Mi objetivo es generar una cadena de beneficios 
+          <strong> ¡Bienvenido a CovidCoin</strong>
+        </h2>
+      -->
+    
+      <section id="project-hero" class="project">
+        <figure class="project-imageContainer">
+        <div class="container">
+          <article class="project">
+            <figure class="event-imageBanner">
+      
+     
+     <a title="bannerbeta"
+     href="https://beta.mexicovscovid191.mx">
+     <img src="assets/images/bannercoin.png" 
+     alt="Imagen principal">
+     </a>
+    </figure>
+  </article>
+</div>
+</section>
+<section id="project" class="project">
+
+    <div class="container">
+      <p><strong>¿Sabías que?</strong></p>
+    
+      <p>
+        Existen casi 17 milones de adultos mayores en México.
+        <br>
+        Soy la primer criptomoneda creada para generar una cadena de beneficios.
+        Mi primer objetivo será que me usen para pagarle a jóvenes en un empleo de apoyo social para ayudar
+        a combatir la depresión y ansiedad en adultos mayores.
+      </p>
+      <p><strong>Elige una de las 3 opciones siguientes:</strong></p>
+      </div>
+    </section>
+    <!--<section id="project-hero" class="project">
+      <figure class="project-imageContainer">
+      <div class="container">
+        <article class="project">
+          <figure class="event-imageBanner">
+    
+        
+            </figure>
+         </article>
+      </div>
+    </section>-->
+    <section id="project" class="project">
+      <div class="container">
+        <div class="left">
+        <article class="project">
+          <figure class="project-imageContainer">
+          <figure class="event-imageContainer">
+            <a title="donatarios"
+            href="https://docs.google.com/forms/d/1HRLViZpBCSEdvDjwsat747X4OjPlPJOidaz_gniIOmQ/viewform"><img
+            src="assets/images/covidCoin1.png" 
+            alt="covidCoin1"/></a>
+          </figure>
+        </article>
+      </div>
+    </div>
+      <div class="container">
+        <div class="right">
+        <article class="project">
+          <figure class="project-imageContainer">
+          <figure class="event-imageContainer">         
+            <a title="ayuda"
+            href="https://docs.google.com/forms/d/1hSYwpj-Pscy9nWKckSyG1owKzVXsxTR-NkLq5S4dgdk/viewform"><img
+            src="assets/images/covidCoin2.png" 
+            alt="covidCoin2"/></a>
+          </figure>
+        </article>
+      </div>
+    </div>
+     <div class="container">
+        <div class="center">
+        <article class="project">
+          <figure class="project-imageContainer">
+          <figure class="event-imageContainer">
+            <a title="voluntarios"
+             href="https://docs.google.com/forms/d/e/1FAIpQLSc0wvAPaFfjZbWefnCU9IAIEBtPrjEoZWkMc3ksiPmgw3v3PA/viewform"><img
+             src="assets/images/covidCoin3.png" 
+             alt="covidCoin3"/></a>
+          </figure>
+        </article>
+      </div>
+  </div>
+  </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="social">
+          <a
+            href="https://www.facebook.com/PlataformaMexicoCovid"
+            class="social-link facebook"
+          ></a>
+          <a
+            href="https://twitter.com/MexicoCovid191"
+            class="social-link twitter"
+          ></a>
+          <a
+            href="https://www.instagram.com/p/B-V0_fPHHul"
+            class="social-link Instagram"
+          ></a>
+        </div>
+        <div>
+          <a>
+           CovidCoin <Br/> 
+            <a href="pdp.html">Politica de privacidad</a>
+            <!--<br />Diseñado con 💖 por
+            <a href="https://taniasosa.com">Tania Sosa</a>-->
+            </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const ipad = window.matchMedia("screen and (max-width: 767px)");
+      const menu = document.querySelector(".menu");
+      const burgerButton = document.querySelector("#burger-menu");
+      ipad.addListener(validation);
+      function validation(event) {
+        if (event.matches) {
+          burgerButton.addEventListener("click", hideShow);
+        } else {
+          burgerButton.removeEventListener("click", hideShow);
+        }
+      }
+      validation(ipad);
+      function hideShow() {
+        if (menu.classList.contains("is-active")) {
+          menu.classList.remove("is-active");
+        } else {
+          menu.classList.add("is-active");
+        }
+      }
+    </script>
+    <script data-account="5C16rj2qY2" src="https://cdn.userway.org/widget.js"></script>
+  </body>
+</html>
